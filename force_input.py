@@ -5,7 +5,7 @@ def multiple_of_6():
     """
     while True:
         try:
-            n = (input("Please give me a multiple of 6: "))
+            n = input("Please give me a multiple of 6: ")
             n = int(n)
 
             if n % 6 == 0:
